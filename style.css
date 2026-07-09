@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: inter;
+}
+
+.commonBtn{
+    color: white;
+    background: #1D4ED8;
+}
+
+
+
+
+/* Navigations bar is start from here */
+/* Navigations bar is start from here */
+/* Navigations bar is start from here */
+/* Navigations bar is start from here */
+.navBar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    background: white;
+}
+.navBar ul{
+    display: flex;
+    gap: 14px;
+}
+.navBar ul li{
+    list-style: none;
+}
+.navBar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    padding: 8px 16px;
+    cursor: pointer ;
+    transition: 0.3s;
+}
+.navBar ul li a:hover{
+    color: #1D4ED8;
+}
+.navBtn{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 9px;
+
+    font-size: 16;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.navBtn:hover{
+    background: #3d70fa;
+}
+
+
+
+/* hero section is starts from here */
+/* hero section is starts from here */
+/* hero section is starts from here */
+/* hero section is starts from here */
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./assets/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 91vh;
+    width: 100%;
+
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero h1{
+    font-size: 80px;
+    color: white;
+}
+.hero p{
+    color: white;
+    width: 30%;
+    margin: 10px auto;
+}
+
+.heroBtn{
+    position: absolute;
+    bottom: 100px;
+    font-size: 24px;
+    color: white;
+
+    background: #1D4ED8;
+    padding: 15px 35px;
+
+    border: none;
+    border-radius: 15px;
+}
