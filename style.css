@@ -14,6 +14,15 @@ img{
     width: 100%;
 }
 
+input{
+    border: none;
+    border-radius: 30px;
+    background: rgb(233, 233, 233);
+    color: black;
+    padding: 8px 18px;
+}
+
+
 
 
 
@@ -61,6 +70,9 @@ img{
 .navBtn:hover{
     background: #3d70fa;
 }
+
+
+
 
 
 
@@ -116,12 +128,14 @@ img{
 
 
 
+
+
 /* speakers section starts from here */
 /* speakers section starts from here */
 /* speakers section starts from here */
 /* speakers section starts from here */
 .speakers{
-    margin-top: 50p;
+    margin-top: 150px;
 }
 .speakers h1{
     text-align: center;
@@ -170,6 +184,9 @@ img{
 
 
 
+
+
+
 /* Pricing table starts from here */
 /* Pricing table starts from here */
 /* Pricing table starts from here */
@@ -180,8 +197,11 @@ img{
     justify-content: center;
     flex-direction: column;
     max-width: 1200px;
-    margin: 100px auto;
+    margin: 150px auto;
     text-align: center;
+}
+.pricing-title h1{
+    font-size: 3rem;
 }
 
 
@@ -254,4 +274,137 @@ img{
 .proCart button{
     background: #1D4ED8;
     color: white;
+}
+
+
+
+
+/* contact us section starts from here */
+/* contact us section starts from here */
+/* contact us section starts from here */
+/* contact us section starts from here */
+.contactUs{
+    background: #F6F6F6;
+    padding: 100px 150px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.contactDetails{
+    flex: 1;
+    text-align: left;
+}
+.contactDetails P{
+    margin-top: 30px;
+    max-width: 700px;
+}
+
+.contactForm{
+    flex-direction: 1;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 20px 40px;
+    text-align: center;
+}
+.contactForm .inputArea{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.userData{
+    display: flex;
+    gap: 20px;
+    color: gray;
+
+    text-align: left;
+    font-size: 14px;
+}
+
+.userData label{
+    margin-bottom: 10px;
+}
+
+ .userMail {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 14px;
+ }
+ .userMail label{
+    color: gray;
+    margin-bottom: 5px;
+ }
+
+ .userMail input{
+    width: 100%;
+ }
+
+.textArea{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.inputArea .formBtn{
+    color: white;
+    background: #1D4ED8;
+    padding: 8px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+
+/* Footer starts from here */
+/* Footer starts from here */
+/* Footer starts from here */
+/* Footer starts from here */
+.footerArea{
+    background: #0D1B2A;
+    padding: 20px 150px;
+}
+
+.footerTopPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerTopPart .logo{
+    width: 80px;
+}
+.footerTopPart .logo img{
+    width: 100%;
+}
+.footerInfo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+.socialMedia{
+    color: white;
+    text-align: center;
+}
+
+.footerArea hr{
+    margin: 20px auto;
+    border: 1px solid gray;
+}
+
+.copyRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+.copyRight .conditions{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
 }
